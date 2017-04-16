@@ -19,13 +19,8 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css",        
-        "../node_modules/simplemde/dist/simplemde.min.css"   
-      ],
-      "scripts": [
-          "../node_modules/jquery/dist/jquery.min.js",          
-          "../node_modules/simplemde/dist/simplemde.min.js",
-          "../node_modules/uploadcare-widget/uploadcare.min.js"
+        "styles.css",
+        "../node_modules/simplemde/dist/simplemde.min.css"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
