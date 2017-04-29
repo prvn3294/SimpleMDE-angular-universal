@@ -20,6 +20,7 @@
       "prefix": "app",
       "styles": [
         "styles.css",
+         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
         "../node_modules/simplemde/dist/simplemde.min.css"
       ],
       "environmentSource": "environments/environment.ts",
