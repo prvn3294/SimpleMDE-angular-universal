@@ -11,7 +11,11 @@ module.exports = {
   target: 'node',
   externals: [nodeExternals({
     whitelist: [
-      /^ngx-bootstrap/
+      /^ngx-bootstrap/,
+      /^@ng-bootstrap/,
+      /^ng2-tag-input/,
+      /^angular2-truncate/,
+      /^@nglibs/
     ]
   })],
   node: {
@@ -23,7 +27,14 @@ module.exports = {
   },
   module: {
     rules: [
-      { test: /\.ts$/, loader: 'ts-loader' }
+     {
+        test: /\.js$/,        
+        use: [{
+          loader: 'babel-loader',
+          options: { presets: ['es2015'] },
+        }],
+      },
+     { test: /\.ts$/, loader: 'ts-loader' }
     ]
   }
 }

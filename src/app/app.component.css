@@ -1,0 +1,12 @@
+.container-fluid{
+    margin-top: 3% !important;
+}
+
+
+/* media queries */
+@media (min-width: 768px){    
+    .mainrow{
+        padding-left: 3%;
+    }
+
+}

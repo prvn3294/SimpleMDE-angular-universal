@@ -1,0 +1,43 @@
+.small-details{
+    margin-top:2%;
+}
+
+.card-block{
+    padding: 7%;
+}
+
+.card-title{
+    font-family: 'Sansita', sans-serif;
+    font-size: 3.0rem;
+    padding: 6% 0;
+}
+
+.card-text{
+    text-align: justify;
+
+}
+
+.back-button{
+    vertical-align: -webkit-baseline-middle;
+    padding-right: 3%;
+    font-size: 1.3rem;
+}
+
+:host >>> .card-text img{
+    width: 100% ;
+    height: auto;
+}
+
+.card-img-top{
+    width: 100%;
+    height: auto
+}
+
+:host >>> code{
+    display:block;    
+    color:white;
+    background:rgba(29,38,39,0.94);
+    padding:4%;
+    overflow-x: auto;
+    border-radius:0.25rem;
+}
